@@ -25,4 +25,14 @@ https://github.com/user-attachments/assets/ece10823-5d80-499c-9047-057cfb622560
    ```bash
    git clone https://github.com/hariiomp/SmoothGauge.git
 
+## 📷 Preview  
 
+```kotlin
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun PreviewSmoothGauge() {
+    SmoothGauge(
+        modifier = Modifier.fillMaxWidth(),
+        initialValue = 50
+    )
+}
