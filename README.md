@@ -25,6 +25,15 @@ https://github.com/user-attachments/assets/ece10823-5d80-499c-9047-057cfb622560
    ```bash
    git clone https://github.com/hariiomp/SmoothGauge.git
 
+## What I Used to Build This
+- Language: Kotlin
+- UI Framework: Jetpack Compose
+- Animations: Animatable, spring physics-based animation
+- Gestures: pointerInput with detectDragGestures
+- Canvas Drawing: Custom tick marks & needle rendering
+- Color Interpolation: lerpTo for gradient-style effects
+- Previewing: @Preview annotations for design-time UI testing
+
 ## 📷 Preview  
 
 ```kotlin
